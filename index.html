@@ -1,55 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./Images/Spotify Logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Spotify UI</title>
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./Images/Spotify Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="image">
+        <img src="./Images/Spotify Logo.png" alt="Spotify Logo">
+      </div>
 
-    <div class="container">
-        <div class="sidebar">
-            <div class="image">
-                <img src="./Images/Spotify Logo.png" alt="Spotify Logo">
-            </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#"><i class="fa fa-home"></i> HOME</a></li>
+          <li><a href="#"><i class="fa fa-search"></i> SEARCH</a></li>
+          <li><a href="#"><i class="fa fa-book"></i> LIBRARY</a></li>
+        </ul>
+      </div>
 
-            <div class="navigation">
-                <ul>
-                    <li><a href="#"><i class="fa fa-home"></i> HOME</a></li>
-                    <li><a href="#"><i class="fa fa-search"></i> SEARCH</a></li>
-                    <li><a href="#"><i class="fa fa-book"></i> LIBRARY</a></li>
-                </ul>
-            </div>
+      <div class="navi">
+        <ul>
+          <li><a href="#"><i class="fa fa-plus-square"></i> CREATE PLAYLIST</a></li>
+          <li><a href="#"><i class="fa fa-heart"></i> LIKED SONGS</a></li>
+        </ul>
+      </div>
 
-            <div class="navi">
-                <ul>
-                    <li><a href="#"><i class="fa fa-plus-square"></i> CREATE PLAYLIST</a></li>
-                    <li><a href="#"><i class="fa fa-heart"></i> LIKED SONGS</a></li>
-                </ul>
-            </div>
-
-            <div class="policies">
-                <ul>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="rightside">
-            <h1>Main Content Area</h1>
-            <p>Put your songs, player, or playlists here.</p>
-        </div>
+      <div class="policies">
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
     </div>
 
-    <div class="lower">
-        <p>Music Controls Area</p>
-    </div>
+    <div class="rightside">
+      <div class="topbar">
+        <div class="buttonss">
+          <button type="button"><i class="fa fa-chevron-left"></i></button>
+          <button type="button"><i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="#"><button type="button">Signup</button></a></li>
+            <li><a href="#"><button type="button">Login</button></a></li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="playlist">
+        <h2>Playlists</h2>
+        <div class="list">
+          <div class="item">
+            <div class="play">
+              <img src="./Images/All Out 80s.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>All Out 80s</h4>
+            <p>Retro hits from the 80s</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/All Out 2010s.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>All Out 2010s</h4>
+            <p>Hits that ruled the 2010s</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Beats to think to.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Beats to Think To</h4>
+            <p>Lo-fi beats for deep thought</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Chill Hits.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Chill Hits</h4>
+            <p>Relax with chill vibes</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Deep Focus.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Deep Focus</h4>
+            <p>Music to help you concentrate</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Focus Flow.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Focus Flow</h4>
+            <p>Focus-enhancing instrumental</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Instrumental Study.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Instrumental Study</h4>
+            <p>Soft instrumentals for study</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+
+          <div class="item">
+            <div class="play">
+              <img src="./Images/RapCaviar.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>RapCaviar</h4>
+            <p>The top rap tracks</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist">
+        <h2>Your Playlists</h2>
+        <div class="list">
+          <div class="item">
+            <div class="play">
+              <img src="./Images/All Out 80s.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>All Out 80s</h4>
+            <p>Retro hits from the 80s</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/All Out 2010s.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>All Out 2010s</h4>
+            <p>Hits that ruled the 2010s</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Rock Classics.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Rock Classics</h4>
+            <p>Timeless rock anthems</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Viva Latino.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Viva Latino</h4>
+            <p>Hot Latin hits</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Reading Adventure.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Reading Adventure</h4>
+            <p>Stories and soundscapes</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="playlist">
+        <h2>Focus Playlists</h2>
+        <div class="list">
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Chill Hits.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Chill Hits</h4>
+            <p>Relax with chill vibes</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Deep Focus.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Deep Focus</h4>
+            <p>Music to help you concentrate</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Instrumental Study.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Instrumental Study</h4>
+            <p>Soft instrumentals for study</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Focus Flow.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Focus Flow</h4>
+            <p>Focus-enhancing instrumental</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist">
+        <h2>City Vibes</h2>
+        <div class="list">
+          <div class="item">
+            <div class="play">
+              <img src="./Images/The Sound of Delhi.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Sound of Delhi</h4>
+            <p>City beats from Delhi</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/The Sound of Mumbai.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Sound of Mumbai</h4>
+            <p>Mumbai’s urban vibe</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/The Sound of Bengaluru.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Sound of Bengaluru</h4>
+            <p>Grooves from India’s tech city</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/The Sound of Hyderabad.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Sound of Hyderabad</h4>
+            <p>Hyderabadi mood music</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/Peaceful Piano.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Elegant piano melodies</p>
+          </div>
+          <div class="item">
+            <div class="play">
+              <img src="./Images/The Sound of Kolkata.jpg" alt="">
+              <button class="fa fa-play"></button>
+            </div>
+            <h4>Sound of Kolkata</h4>
+            <p>Culture and sound of Bengal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lower">
+    <p>Music Controls Area</p>
+  </div>
 </body>
 </html>
