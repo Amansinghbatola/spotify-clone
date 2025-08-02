@@ -182,7 +182,8 @@ body {
 .lower {
   width: 100%;
   height: 40px;
-  background: rgb(191, 113, 159);
+  background: linear-gradient(to right, #ff69b4, #1e90ff);
+
   display: flex;
   align-items: center;
   justify-content: space-between;  
