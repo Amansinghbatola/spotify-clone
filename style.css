@@ -7,7 +7,8 @@ body {
 
 .container {
   display: flex;
-  height: 90vh;
+  height: 95vh;
+
 }
 
 .sidebar {
@@ -61,7 +62,7 @@ body {
   background-color: black;
   padding: 0;
   color: white;
-  height: 90vh;
+  
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -115,16 +116,7 @@ body {
   color: black;
 }
 
-.lower {
-  width: 100%;
-  height: 10vh;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 18px;
-}
+
 
 .playlist {
   padding: 20px 40px;
@@ -187,3 +179,46 @@ body {
 .play:hover  button {
     display: block;
 }
+.lower {
+  width: 100%;
+  height: 40px;
+  background: rgb(191, 113, 159);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  color: white;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  
+ 
+}
+
+.lower p {
+ 
+  font-size:13px;
+  color: #131212; 
+  
+  
+}
+
+
+
+.lower button {
+  color: #1db954;
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  padding: 6px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 30px; ;
+}
+
+.lower button:hover {
+  background-color:black;
+}
+
